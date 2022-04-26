@@ -1,0 +1,30 @@
+﻿@model List<BilgeAdam.HelloAspNetCore.Models.PersonViewModel>
+<html>
+    <head>
+        <title>Merhaba</title>
+        <link rel="stylesheet" href="/css/site.css" />
+    </head>
+    <body>
+        <h1>Kişi Sayısı : @Model.Count</h1>
+        <table>
+            <tr>
+                <th>Adı</th>
+                <th>Yaşı</th>
+            </tr>
+            @foreach(var person in Model)
+            {
+                <tr>
+                    <td>@person.Name</td>
+                    <td>@person.Age</td>
+                </tr>
+            }
+        </table>
+        <hr />
+        <ul>
+            @foreach(var person in Model)
+            {
+                <li>@person.Name (@person.Age)</li>
+            }
+        </ul>
+    </body>
+</html>

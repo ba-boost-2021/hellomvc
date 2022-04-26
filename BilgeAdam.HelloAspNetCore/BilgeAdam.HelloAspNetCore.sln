@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.HelloAspNetCore", "BilgeAdam.HelloAspNetCore\BilgeAdam.HelloAspNetCore.csproj", "{799BFD3A-D01C-4F20-BD4B-77A3960D06BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.MVCStyla", "BilgeAdam.MVCStyla\BilgeAdam.MVCStyla.csproj", "{BEA24D93-42BF-4EDB-A06E-AFDB3D8ABFAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{799BFD3A-D01C-4F20-BD4B-77A3960D06BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799BFD3A-D01C-4F20-BD4B-77A3960D06BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799BFD3A-D01C-4F20-BD4B-77A3960D06BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799BFD3A-D01C-4F20-BD4B-77A3960D06BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA24D93-42BF-4EDB-A06E-AFDB3D8ABFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA24D93-42BF-4EDB-A06E-AFDB3D8ABFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA24D93-42BF-4EDB-A06E-AFDB3D8ABFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA24D93-42BF-4EDB-A06E-AFDB3D8ABFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BE7D22A-5D70-4478-8542-1F9CE41AD490}
+	EndGlobalSection
+EndGlobal

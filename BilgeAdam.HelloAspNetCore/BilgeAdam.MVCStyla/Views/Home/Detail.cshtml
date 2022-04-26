@@ -1,0 +1,21 @@
+﻿@model ReceiptViewModel
+<div class="d-flex">
+    <div class="card" style="width: 36rem;">
+        <img class="card-img-top" src="/images/receipts/@(Model.ImageCode).jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">@Model.Title</h5>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <p class="card-text">@Model.Tariff</p>
+            <hr />
+            <ul>
+                @foreach (var i in Model.Ingredients)
+                {
+                    <li>@i</li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

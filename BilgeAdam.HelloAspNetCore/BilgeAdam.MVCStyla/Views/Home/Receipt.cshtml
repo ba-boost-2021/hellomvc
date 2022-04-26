@@ -1,0 +1,14 @@
+﻿@model List<ReceiptViewModel>
+<div class="d-flex">
+    @foreach (var receipt in Model)
+    {
+        <div class="card m-2" style="width: 18rem;">
+            <img class="card-img-top" src="/images/receipts/@(receipt.ImageCode).jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">@receipt.Title</h5>
+                <p class="card-text">@receipt.Tariff.Substring(0, 32)...</p>
+                <a href="/Home/Receipt-Detail/@receipt.Id" class="btn btn-primary">Tarifi Gör</a>
+            </div>
+        </div>
+    }
+</div>
